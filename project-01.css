@@ -1,0 +1,406 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+section{
+  height: 100vh;
+  width: 100%;
+  background-color: azure;
+  padding-top: 100px;
+ 
+  }
+section>article{
+  height: 65vh;
+  width: 80%;
+  margin-left: 200px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  rgb(21, 21, 49);
+  background-image: url(./gradint.jpg);
+  background-size: cover;
+}
+  section>article>.box1{
+    height: 450px;
+    width: 300px;
+    background-repeat: repeat;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 6px;  
+   }
+   section>article>.box1:hover{
+    transform: skew(10deg);
+    transition: 2s;
+    cursor: pointer;
+    opacity: 0.5px;
+   }
+   section>article>.box2{
+    height: 450px;
+    width: 300px;
+    background-repeat: repeat;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 6px;
+   }
+   section>article>.box3{
+    height: 450px;
+    width: 300px;
+    background-repeat: repeat;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 6px;
+   }
+   section>article>.box4{
+    height: 450px;
+    width: 300px;
+    background-repeat: repeat;
+    box-shadow: 2px 2px 20px white;
+    border-radius: 6px;
+   }
+   section>article>.box1>.image{
+    height: 100px;
+    width: 100px;
+    border-radius:100px ;
+    background-color: aqua; 
+    margin-left:95px ;
+    margin-top: 25px;
+    background-image: url(./VASANTH\ PROFILE.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 15px white;
+    border: solid white;
+   }
+  section>article>.box1>.name{ 
+    text-align: center;
+    font-weight: bold ;
+    font-size: 25px;
+    font-variant:small-caps;
+    text-transform: capitalize;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 3px gray;
+    padding-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+  } 
+  section>article>.box1>.email{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: center;
+  text-indent: 2px;
+  color: chartreuse;
+  text-shadow: 2px 2px 5px rgb(196, 190, 190); 
+  padding-left: 15px;
+  padding-top: 5px; 
+}
+section>article>.box1>.detiles{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:15px ;
+  text-align: center;
+  font-style: italic;
+  text-indent: 5px;
+  word-spacing: 2px;
+  text-indent: 40px;
+  padding-top: 20px;
+  color: cornflowerblue;
+  text-shadow: 2px 2px 5px rgb(75, 63, 63);
+  padding-bottom: 20px;
+}
+section>article>.box1>.more{
+  height: 30px;
+  width: 80px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: rgb(223, 18, 154);
+  margin-left: 105px;
+  box-shadow: 2px 2px 8px rgb(87, 50, 87);
+  color: chartreuse;
+  border-style: none;
+}
+section>article>.box1>#twitter{
+  font-size: 40px;
+  padding-left: 40px;
+  padding-top: 35px;
+  text-shadow: 2px 2px 2px rgb(148, 148, 224);
+}
+section>article>.box1>#instagram{
+  font-size: 40px;
+  padding-left: 40px;
+  text-shadow: 2px 2px 2px rgb(238, 142, 142);
+}
+section>article>.box1>#telegram{
+  font-size: 40px;
+  padding-left: 40px;
+  text-shadow: 2px 2px 2hpx rgb(144, 172, 184);
+}
+section>article>.box2>.image1{
+  height: 100px;
+  width: 100px;
+  border-radius:100px ;
+  background-color: aqua; 
+  margin-left:95px ;
+  margin-top: 25px;
+  background-image: url(./vasnth2.JPG);
+  background-size: cover;
+  box-shadow: 2px 2px 15px white;
+  border: solid white;
+ }
+section>article>.box2>.name1{ 
+  text-align: center;
+  font-weight: bold ;
+  font-size: 25px;
+  font-variant:small-caps;
+  text-transform: capitalize;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 3px gray;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+} 
+section>article>.box2>.email1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bolder;
+text-align: center;
+text-indent: 2px;
+color: chartreuse;
+text-shadow: 2px 2px 5px rgb(196, 190, 190); 
+padding-left: 15px;
+padding-top: 5px; 
+}
+section>article>.box2>.detiles1{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size:15px ;
+text-align: center;
+font-style: italic;
+text-indent: 5px;
+word-spacing: 2px;
+text-indent: 40px;
+padding-top: 20px;
+color: cornflowerblue;
+text-shadow: 2px 2px 5px rgb(75, 63, 63);
+padding-bottom: 20px;
+}
+section>article>.box2>.more1{
+height: 30px;
+width: 80px;
+border-style: solid;
+border-radius: 20px;
+text-align: center;
+padding-top: 8px;
+background-color: rgb(223, 18, 154);
+margin-left: 105px;
+box-shadow: 2px 2px 8px rgb(87, 50, 87);
+color: chartreuse;
+border-style: none;
+}
+section>article>.box2>#thumbs1{
+font-size: 30px;
+padding-left: 50px;
+text-shadow: 2px 2px 2px rgb(148, 148, 224);
+}
+section>article>.box2>#thumbs2{
+font-size: 35px;
+padding-left: 45px;
+text-shadow: 2px 2px 2px rgb(238, 142, 142);
+}
+section>article>.box2>#command{
+font-size: 35px;
+padding-left: 45px;
+padding-top: 40px;
+text-shadow: 2px 2px 2px rgb(144, 172, 184);
+}
+section>article>.box3>.image2{
+  height: 100px;
+  width: 100px;
+  border-radius:100px ;
+  background-color: aqua; 
+  margin-left:95px ;
+  margin-top: 25px;
+  background-image: url(./vasanth3.JPG);
+  background-size: cover;
+  box-shadow: 2px 2px 15px white;
+  border: solid white;
+ }
+section>article>.box3>.name2{ 
+  text-align: center;
+  font-weight: bold ;
+  font-size: 25px;
+  font-variant:small-caps;
+  text-transform: capitalize;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 3px gray;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+} 
+section>article>.box3>.email2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bolder;
+text-align: center;
+text-indent: 2px;
+color: chartreuse;
+text-shadow: 2px 2px 5px rgb(196, 190, 190); 
+padding-left: 15px;
+padding-top: 5px; 
+}
+section>article>.box3>.detiles2{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size:15px ;
+text-align: center;
+font-style: italic;
+text-indent: 5px;
+word-spacing: 2px;
+text-indent: 40px;
+padding-top: 20px;
+color: cornflowerblue;
+text-shadow: 2px 2px 5px rgb(75, 63, 63);
+padding-bottom: 20px;
+}
+section>article>.box3>.more2{
+height: 30px;
+width: 80px;
+border-style: solid;
+border-radius: 20px;
+text-align: center;
+padding-top: 8px;
+background-color: rgb(223, 18, 154);
+margin-left: 105px;
+box-shadow: 2px 2px 8px rgb(87, 50, 87);
+color: chartreuse;
+border-style: none;
+}
+section>article>.box3>#icon1{
+font-size: 35px;
+padding-left: 50px;
+text-shadow: 2px 2px 2px rgb(148, 148, 224);
+}
+section>article>.box3>#icon2{
+font-size: 35px;
+padding-left: 45px;
+text-shadow: 2px 2px 2px rgb(238, 142, 142);
+}
+section>article>.box3>#icon3{
+font-size: 35px;
+padding-left: 45px;
+padding-top: 40px;
+text-shadow: 2px 2px 2px rgb(144, 172, 184);
+}
+section>article>.box4>.image3{
+  height: 100px;
+  width: 100px;
+  border-radius:100px ;
+  background-color: aqua; 
+  margin-left:95px ;
+  margin-top: 25px;
+  background-image: url(./thalapathy.jpg);
+  background-size: cover;
+  box-shadow: 2px 2px 15px white;
+  border: solid white;
+ }
+section>article>.box4>.name3{ 
+  text-align: center;
+  font-weight: bold ;
+  font-size: 25px;
+  font-variant:small-caps;
+  text-transform: capitalize;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 3px gray;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+} 
+section>article>.box4>.email3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bolder;
+text-align: center;
+text-indent: 2px;
+color: chartreuse;
+text-shadow: 2px 2px 5px rgb(196, 190, 190); 
+padding-left: 15px;
+padding-top: 5px; 
+}
+section>article>.box4>.detiles3{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size:15px ;
+text-align: center;
+font-style: italic;
+text-indent: 5px;
+word-spacing: 2px;
+text-indent: 35px;
+padding-top: 20px;
+color: cornflowerblue;
+text-shadow: 2px 2px 5px rgb(75, 63, 63);
+padding-bottom: 20px;
+}
+section>article>.box4>.more3{
+height: 30px;
+width: 80px;
+border-style: solid;
+border-radius: 20px;
+text-align: center;
+padding-top: 8px;
+background-color: rgb(223, 18, 154);
+margin-left: 105px;
+box-shadow: 2px 2px 8px rgb(87, 50, 87);
+color: chartreuse;
+border-style: none;
+}
+section>article>.box4>#img1{
+font-size: 40px;
+padding-left: 50px;
+text-shadow: 2px 2px 2px rgb(148, 148, 224);
+}
+section>article>.box4>#img2{
+font-size: 35px;
+padding-left: 45px;
+text-shadow: 2px 2px 2px rgb(238, 142, 142);
+}
+section>article>.box4>#img3{
+font-size: 35px;
+padding-left: 45px;
+padding-top: 40px;
+text-shadow: 2px 2px 2px rgb(144, 172, 184);
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 8px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 20px;
+}
+h2{
+text-align: center;
+font-weight: bold;
+padding-top:16 px;
+opacity: 0.4;
+letter-spacing: 20px;
+line-height: 30px;
+}
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
