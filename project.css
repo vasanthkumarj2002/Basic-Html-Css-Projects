@@ -1,0 +1,168 @@
+
+section{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(238, 236, 236);
+  padding-top: 200px;
+}
+section>article{
+  height: 450px;
+  width: 270px;
+  background-color: white;
+  margin-left: 700px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgb(87, 84, 84);
+  padding-top: 50px;
+  background: linear-gradient(yellow,skyblue,white);
+}
+section>article>.image{
+  height: 90px;
+  width: 90px;
+  background-color: aqua;
+  border-radius: 100%;
+  margin-left: 95px;
+  background-image: url(./vasnth2.JPG);
+  background-size: cover;
+  box-shadow: 2px 2px 15px rgb(137,137,137); 
+
+}
+section>article>.name{
+  text-align: center;
+  font-weight: bold ;
+  font-size: 25px;
+  font-variant:small-caps;
+  text-transform: capitalize;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 3px gray;
+  padding-left: 10px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+section>article>.email{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: center;
+  text-indent: 2px;
+  color: cornflowerblue;
+  text-shadow: 2px 2px 5px rgb(196, 190, 190); 
+  padding-left: 15px;
+  padding-top: 5px; 
+}
+section>article>.detiles{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:15px ;
+  text-align: center;
+  font-style: italic;
+  text-indent: 5px;
+  word-spacing: 2px;
+  text-indent: 40px;
+  padding-top: 20px;
+  color: rgb(129, 52, 129);
+  text-shadow: 2px 2px 5px rgb(75, 63, 63);
+  padding-bottom: 20px;
+}
+section>article>.more{
+  height: 30px;
+  width: 80px;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 12px;
+  background-color: rgb(223, 18, 154);
+  margin-left: 95px;
+  box-shadow: 2px 2px 8px rgb(87, 50, 87);
+  color: chartreuse;
+  border-style: none;
+}
+section>article>#twitter{
+  color: rgb(78, 78, 216);
+  font-size: 40px;
+  padding-left: 35px;
+  padding-top: 20px;
+  text-shadow: 2px 2px 2px rgb(148, 148, 224);
+}
+section>article>#instagram{
+  font-size: 40px;
+  padding-left: 35px;
+  color: rgb(238, 81, 81);
+  text-shadow: 2px 2px 2px rgb(238, 142, 142);
+}
+section>article>#telegram{
+  font-size: 40px;
+  color: rgb(121, 121, 250);
+  padding-left: 35px;
+  text-shadow: 2px 2px 2hpx rgb(144, 172, 184);
+}
+section>article>.follow{
+  padding-left: 30px;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: 15px;
+  font-family:cursive;
+}
+section>article>.follow2{
+  padding-left: 35px;
+  padding-top: 3px;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: 15px;
+  font-family:cursive;
+}
+section>article>.follow3{
+  padding-left: 32px;
+  padding-top: 5px;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: 15px;
+  font-family:cursive;
+}
+section>article>.f1{
+  padding-left: 21px;
+  padding-top: 3px;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: 14px;
+  font-family:cursive;
+}
+section>article>.f2{
+  padding-left: 16px;
+  padding-top: 3px;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: 14px;
+  font-family:cursive;
+}
+section>article>.f3{
+  padding-left: 14px;
+  padding-top: 3px;
+  font-weight: bold;
+  padding-top: 2px;
+  font-size: 14px;
+  font-family:cursive;
+}
+section>article>.more:hover{
+  background-color:rgb(255, 0, 221);
+  text-decoration: none;
+}
+section>article>.more a{
+  text-decoration: none;
+  color:darkblue;
+}
+section>article:hover{
+  transform: rotate3d(2,2,2,360deg);
+  transition: 3s;
+
+}
+section>article>.image:hover{
+  transform: rotate3d(2,2,2,360deg);
+  transition: 3s;
+}
+section>article>.name:hover{
+  transform: rotate3d(2,2,2,b360deg);
+  transition: 3s;
+}
+
+
